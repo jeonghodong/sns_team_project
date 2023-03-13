@@ -23,7 +23,7 @@ function App() {
               <Route path="/register" element={<Register />} />
               <Route path="/changepw" element={<ChangePassword />} />
               <Route path="/forgotpw" element={<ForgotPassword />} />
-              <Route path="/verifyemail" element={<VerifyEmail />} />"
+              <Route path="/verifyemail" element={<VerifyEmail />} />
             </Route>
             <Route element={<SideBar />}>
               <Route path="/main" element={<Main />} />
@@ -35,5 +35,4 @@ function App() {
     </Provider>
   );
 }
-
 export default App;
